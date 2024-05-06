@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: none;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 140px;
+    margin-bottom: 32.5px;
+    padding-left: 25px;
+    display: inline;
+}
+
+img{
+    float: right;
+    padding-top: 20px;
+}
+
+article.artigo > iframe{
+    float: left;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+article.artigo > h2,p{
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+article.artigo{
+    background-color: #ccc;
+    clear: left;
+}
+
+article#fotos{
+   /*limpa o flutuador aplicado nas imagens*/ 
+   clear: left;
+   background-color: #c13832;
+}
+
+article#fotos > picture >  img{
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+article#f > picture{
+    margin-left: auto;
+    margin-right: auto;
+}

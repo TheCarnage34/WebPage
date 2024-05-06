@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Mozilla</title>
+    <!--fonte externa google-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--estilização da pagina-->
+    <link rel="stylesheet" href="style/styleExternal.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Godzilla</h1>
+            <img src="imagens/firefox_logo-only_RGB-120.png" alt="logo mozilla">
+        </header>
+        <article class="artigo">
+            <iframe width="360" height="215" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Balançando na web grátis</h2>
+            <p>Mozilla é uma comunidade global de tecnólogos, pensadores e construtores, trabalhando juntos para manter a Internet viva e acessível, para que as pessoas em todo o mundo possam ser contribuintes e criadores da Web informados. Acreditamos que este ato de colaboração humana em uma plataforma aberta é essencial para o crescimento individual e nosso futuro coletivo.</p>
+            <p>Clique nas imagens abaixo para encontrar mais informações sobre as coisas legais que a Mozilla faz. <a href=" https://www.flickr.com/photos/mathiasappel/21675551065/">imagem Red panda</a> por Mathias Appel.</p>
+        </article>
+        <article id="fotos">
+            <picture>
+                <!--quando a janela estiver sendo redimensiona e estiver com 600pexels de largura ou menos -->
+                <source media="(max-width: 600px)" srcset="imagens/firefox_logo-only_RGB-120.png" type="image/png">
+                <img src="imagens/firefox_logo-only_RGB-400.png" alt="imagen">
+            </picture>
+            <picture>
+                <source media="(max-width: 600px)" srcset="imagens/firefox-addons-120.jpg" type="image/png">
+                <img src="imagens/firefox-addons-400.jpg" alt="logo firefox">
+            </picture>
+            <picture>
+                <source media="(max-width: 600px)" srcset="imagens/mozilla-dinosaur-head-120.png" type="image/png">
+                <img src="imagens/mozilla-dinosaur-head-400.png" alt="imagen">
+            </picture>
+            <picture>
+                <source media="(max-width: 600px)" srcset="imagens/mdn.svg" type="image/svg">
+                <img src="imagens/mdn.svg" alt="imagen">
+            </picture>
+        </article>
+        <article id="f">
+            <picture>
+                <!--quando largura minima for 600 pixels da janela do navegador-->
+                <source media="(max-width: 600px)" srcset="imagens/red-panda-600.jpg" type="image/jpg">
+                <!--tamanho normal-->
+                <img src="imagens/red-panda-1200.jpg" alt="imagen panda">
+            </picture>
+        </article>
+    </main>
+</body>
+</html>
